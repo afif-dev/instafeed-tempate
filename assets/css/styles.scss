@@ -143,6 +143,11 @@ a.navbar-item {
   }
   .navbar {
     background-color: #000;
+    @media screen and (max-width: 1023px) {
+      .navbar-menu {
+        background-color: #000;
+      }
+    }
     .navbar-brand {
       > a.navbar-item {
         &:hover {

@@ -55,7 +55,7 @@ async function fetchUserInfo() {
 
   if (response.status === 200) {
     let data = await response.json();
-    console.log(data);
+    // console.log(data);
     const userInfo = document.querySelector(".user-info");
     userInfo.querySelector(".title").innerText = data.name;
     userInfo.querySelector(".bio").innerText = data.bio;

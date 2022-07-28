@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Aubrey Lynch",
+    "profile_photo": "./assets/img/profile-1.png"
+  },
+  {
+    "name": "Ian Rodriquez",
+    "profile_photo": "./assets/img/profile-2.png"
+  },
+  {
+    "name": "Leslie Boyd",
+    "profile_photo": "./assets/img/profile-3.png"
+  },
+  {
+    "name": "Jose Sanders",
+    "profile_photo": "./assets/img/profile-4.png"
+  },
+  {
+    "name": "Sheila Daniels",
+    "profile_photo": "./assets/img/profile-5.png"
+  }
+]

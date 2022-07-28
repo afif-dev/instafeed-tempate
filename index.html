@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="./assets/css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar is-fixed-top has-shadow" role=" navigation" aria-label="main navigation">
+            <div class="container is-max-widescreen">
+                <div class="navbar-brand">
+                    <a class="navbar-item" href="index.html">
+                        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                    </a>
+                    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="main-navbar">
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                        <span aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div id="main-navbar" class="navbar-menu">
+                    <div class="navbar-item is-flex-grow-1 is-justify-content-center">
+                        <div class="is-flex-grow-2"></div>
+                        <div class="control has-icons-left is-flex-grow-2">
+                            <input class="input" type="text" placeholder="Search">
+                            <span class="icon is-left">
+                                <i class="material-icons">search</i>
+                            </span>
+                        </div>
+                        <div class="is-flex-grow-2"></div>
+                    </div>
+                    <div class="navbar-item is-flex-touch is-justify-content-center">
+                        <a class="navbar-item">
+                            <i class="material-icons">home</i>
+                        </a>
+                        <a class="navbar-item">
+                            <i class="material-icons">explore</i>
+                        </a>
+                        <a class="navbar-item">
+                            <i class="material-icons">favorite_border</i>
+                        </a>
+                        <a class="navbar-item">
+                            <i class="material-icons">person_outline</i>
+                        </a>
+                        <a class="navbar-item theme_mode light_mode">
+                            <i class="material-icons">light_mode</i>
+                        </a>
+                        <a class="navbar-item theme_mode dark_mode">
+                            <i class="material-icons">dark_mode</i>
+                        </a>
+                        <a class="navbar-item">
+                            <figure class="image">
+                                <img class="is-rounded" src="./assets/img/profile-1.png">
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="section mt-6">
+        <div class="container is-max-widescreen">
+
+            <div class="columns is-mobile is-multiline is-centered">
+                <div id="feed" class="column is-full-mobile is-half-tablet">
+                    <!-- <div class="card mb-5">
+                        <header class="card-header p-3">
+                            <div class="media is-flex is-flex-grow-1 is-align-items-center">
+                                <div class="media-left">
+                                    <figure class="image is-32x32">
+                                        <img class="is-rounded" src="./assets/img/profile-1.png">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <span class="title is-6">Sheila Daniels</span>
+                                </div>
+                            </div>
+                        </header>
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="./assets/img/photo-1.jpg" alt="">
+                            </figure>
+                        </div>
+                        <div class="card-content p-3">
+                            <div class="level mb-3 is-mobile">
+                                <div class="level-left">
+                                    <div class="level-item has-text-centered">
+                                        <a href="">
+                                            <i class="material-icons">favorite_border</i>
+                                        </a>
+                                    </div>
+                                    <div class="level-item has-text-centered">
+                                        <div>
+                                            <a href="">
+                                                <i class="material-icons">chat_bubble_outline</i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="level-item has-text-centered">
+                                        <a href="">
+                                            <i class="material-icons">share</i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="level-right">
+                                    <div class="level-item has-text-centered">
+                                        <a href="">
+                                            <i class="material-icons">bookmark_outline</i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="content">
+                                <p>
+                                    <strong>32 Likes</strong>
+                                </p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+                                    <a>@bulmaio</a>.
+                                    <a href="#">#css</a>
+                                    <a href="#">#responsive</a>
+                                </p>
+                                <p>
+                                    <a href="#">View all 8 comments</a>
+                                </p>
+                                <time datetime="2018-1-1">11:09 PM - 1 May 2022</time>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <div class="field has-addons is-flex-grow-1 is-align-items-center">
+                                <div class="control">
+                                    <button id="emoji-button" class="button"><i class="material-icons">mood</i></button>
+                                </div>
+                                <div class="control is-flex-grow-1">
+                                    <input class="input comment" type="text" placeholder="Add a comment..." value="" />
+                                </div>
+                                <div class="control">
+                                    <button class="button is-size-7">Post</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+
+                <div class="column is-full-mobile is-one-third-tablet">
+                    <div class="user-info box p-3">
+                        <div class="media is-flex is-flex-grow-1 is-align-items-center">
+                            <div class="media-left">
+                                <figure class="image is-48x48">
+                                    <img class="is-rounded" src="./assets/img/profile.png">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <span class="title is-6">User</span>
+                                <p class="bio">Bio</p>
+                            </div>
+                            <div class="media-right">
+                                <a class="button is-small" href="#">Switch</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="suggested-user box pt-3 px-3">
+                        <div class="is-flex is-align-items-center has-text-weight-bold mb-2">
+                            <div class="is-flex-grow-1">Suggestions for you</div>
+                            <div> <a class="button is-small is-ghost" href="#">See All</a></div>
+                        </div>
+                        <div class="data-list"></div>
+
+                        <!-- <div class="media is-flex is-flex-grow-1 is-align-items-center">
+                            <div class="media-left">
+                                <figure class="image is-32x32">
+                                    <img class="is-rounded" src="./assets/img/profile-5.png">
+                                </figure>
+                            </div>
+                            <div class="media-content">
+                                <span class="title is-7">Sheila Daniels</span>
+                                <p class="is-size-7">Followed by others</p>
+                            </div>
+                            <div class="media-right">
+                                <a class="button is-small" href="#">Follow</a>
+                            </div>
+                        </div> -->
+                    </div>
+
+                    <div class="footer box p-3">
+                        <ul class="links pb-3">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Help</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">API</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Privacy</a></li>
+                            <li><a href="#">Terms</a></li>
+                            <li><a href="#">Locations</a></li>
+                            <li><a href="#">Language</a></li>
+                        </ul>
+                        <p class="is-uppercase is-size-7">&copy; <span class="curr_year"></span> Company Name</p>
+                        <p><small><a href="https://github.com/afif-dev/instafeed-tempate" target="_blank">GitHub Repo - Afif Dev</a></small></p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/emoji-button@0.6.0/dist/index.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

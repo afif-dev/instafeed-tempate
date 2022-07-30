@@ -45,7 +45,7 @@ Demo site: https://instafeed-bulma.netlify.app
   ```
   less-watch-compiler .\assets\css .\assets\css\ styles.less
   ```
-4. Compile and minified .less to .css
+5. Compile and minified .less to .css
   ```
   lessc .\assets\css\styles.less .\assets\css\styles.css --clean-css="--s1 --advanced --compatibility=ie8"
   ```
